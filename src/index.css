@@ -11,3 +11,60 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.nav{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(215, 70, 70);
+  height: 80px;
+  margin-bottom: 3%;
+}
+.nav-title{
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+  padding: 10px 18px;
+  margin-top: 10px;
+}
+.nav-img{
+  width:70px;
+  height:70px;
+  margin-top: 5px;
+}
+
+.card{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 2%;
+  margin-left: 2%;
+  max-width: 1800px;
+}
+.card-info{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1%;
+  margin-left: 1%;
+}
+.card-loc{
+  display: flex;
+  flex-direction: row;
+}
+.card-map{
+  margin-left: 10px;
+}
+.card-title{
+  font-size: 35px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: 1%;
+  margin-bottom: 2%;
+}
+.card-date{
+  font-weight:bold;
+  font-size:17px;
+  margin-top: 0%;
+}
+.card-img{
+  width: 250px;
+  height: 300px;
+  border-radius: 20px;
+}
